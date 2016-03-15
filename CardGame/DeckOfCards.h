@@ -3,8 +3,9 @@
 class DeckOfCards
 {
 private:
-	Card Deck[20];
-	Card *Cards[20];
+	int numCards = 20;
+	Card *Deck = new Card[20];
+	Card cards[20];
 public:
 	DeckOfCards();
 	DeckOfCards reset();

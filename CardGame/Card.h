@@ -7,7 +7,7 @@ private:
 	int number;
 	string colour;
 public:
-	Card(int num,string col);
+	Card(int num = 0,string col="");
 	string Colour();
 	int Number();
 	void print();
