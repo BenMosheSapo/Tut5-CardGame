@@ -4,8 +4,7 @@ class DeckOfCards
 {
 private:
 	int numCards = 20;
-	Card *Deck = new Card[20];
-	Card cards[20];
+	Card** Deck;
 public:
 	DeckOfCards();
 	DeckOfCards reset();
