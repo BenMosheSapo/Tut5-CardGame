@@ -12,6 +12,7 @@ public:
 	Card draw();
 	Card peek();
 	int numberOfCards();
+	void print();
 	~DeckOfCards();
 };
 
